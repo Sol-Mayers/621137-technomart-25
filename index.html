@@ -10,9 +10,11 @@
 	<header>
 		<nav>
 			<a href="index.html" class="main-link"><img src="img/technomart.svg"></a>
-			<div>
-				<!-- Здесь будет форма input type="text" name="search"-->
-			</div>
+			<form action="#" method="get">
+				<input type="submit" value="" style="">
+				<label for="search">Поиск:</label>
+				<input type="text" name="search" id="search">
+			</form>
 			<div><a href="#">Закладки: 0</a></div>
 			<div><a href="#">Корзина: 0</a></div>
 			<div><a href="#">Оформить заказ</a></div>
@@ -45,7 +47,11 @@
 			</ul> <a href="#">Подробнее о компании</a>
 			<h3>Контакты</h3>
 			<p>Вы можете забрать товар сами, заехав в наш офис:</p>
-			<a href="#"><img src="img/map.png"></a> 
+			<a href="#"><img src="img/map.png"></a>
+			<div class="visually-hidden">
+			<img src="#" name="big_map">
+				<button name="exit"><img src="#"></button>
+			</div>
 			<a href="#">Заблудились? Напишите нам!</a> 
 		</section>
 	</main>
@@ -88,6 +94,18 @@
 					</td>
 				</tr>
 			</table>
+			<div class="visually-hidden">
+				<form action="#" method="post">
+					<label for="your_name">Ваше имя:</label>
+					<br><input type="text" name="your_name" id="your_name" value="Имя Фамилия">
+					<br><label for="your_mail">Ваше E-mail:</label>
+					<br><input type="text" name="your_name" id="your_mail" value="email@example.com">
+					<br><label for="letter">Текст письма:</label>
+					<br><input type="text" name="your_name" id="letter" value="В свободной форме">
+					<br><input type="submit" name="send" value="Отправить">
+					<br><input type="button" name="exit" style="#">
+				</form>
+			</div>
 		</section>
 	</footer>
 </body>
