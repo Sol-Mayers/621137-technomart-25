@@ -11,9 +11,8 @@
 		<nav>
 			<a href="index.html" class="main-link"><img src="img/technomart.svg"></a>
 			<form action="#" method="get">
-				<input type="submit" value="" style="">
-				<label for="search">Поиск:</label>
-				<input type="text" name="search" id="search">
+				<button name="search"></button>
+				<input type="text" name="search" placeholder="Поиск:">
 			</form>
 			<div><a href="#">Закладки: 0</a></div>
 			<div><a href="#">Корзина: 0</a></div>
@@ -21,8 +20,8 @@
 		</nav>
 		<h2 class="main-describe">Интернет-магазин строительных материалов и инструментов для ремонта</h2> <a href="tel:+78125550555" class="tel">+7 (812) 555-05-55</a>
 		<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
-		<button>Войти</button>
-		<div><a href="#">Регистрация</a></div>
+		<button name="enter">Войти</button>
+		<div class="user-info"><a href="#">Регистрация</a></div>
 		<nav>
 			<ul>
 				<li><a href="index.html">Главная</a></li>
@@ -94,20 +93,16 @@
 					</td>
 				</tr>
 			</table>
-			<div class="visually-hidden">
-				<form action="#" method="post">
-					<label for="your_name">Ваше имя:</label>
-					<br><input type="text" name="your_name" id="your_name" value="Имя Фамилия">
-					<br><label for="your_mail">Ваше E-mail:</label>
-					<br><input type="text" name="your_name" id="your_mail" value="email@example.com">
-					<br><label for="letter">Текст письма:</label>
-					<br><input type="text" name="your_name" id="letter" value="В свободной форме">
-					<br><input type="submit" name="send" value="Отправить">
-					<br><input type="button" name="exit" style="#">
-				</form>
-			</div>
 		</section>
 	</footer>
+	<div class="visually-hidden">
+				<form action="#" method="post">
+					<label>Ваше имя:<input type="text" name="your_name" placeholder="Имя Фамилия"></label>
+					<label>Ваш E-mail:<input type="text" name="your_name" placeholder="email@example.com"></label>
+					<label>Текст письма:<input type="text" name="your_name" placeholder="В свободной форме"></label>
+					<input type="submit" name="send" value="Отправить">
+					<button name="exit" style="#"></button>
+				</form>
+	</div>
 </body>
-
 </html>

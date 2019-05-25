@@ -11,9 +11,8 @@
 		<nav>
 			<a href="index.html" class="main-link"><img src="img/technomart.svg"></a>
 			<form action="#" method="get">
-				<input type="submit" value="" style="">
-				<label for="search">Поиск:</label>
-				<input type="text" name="search" id="search">
+				<button name="search"></button>
+				<input type="text" name="search" placeholder="Поиск:">
 			</form>
 			<div><a href="#">Закладки: 10</a></div>
 			<div><a href="#">Корзина: 0</a></div>
@@ -21,13 +20,15 @@
 		</nav>
 		<h2 class="main-describe">Интернет-магазин строительных материалов и инструментов для ремонта</h2> <a href="tel:+78125550555" class="tel">+7 (812) 555-05-55</a>
 		<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
-		<div>
-			<a href="#"><img src="#">Равшан Джамшутович</a>
+		<div class="user-info">
+			<a href="#">Равшан Джамшутович</a>
 			<form action="#" method="post">
-			<input type="button" name="exit">
+			<button name="exit"></button>
 			</form>
-			<a href="#">Мои заказы</a>
-			<a href="#">Личный кабинет</a>
+			<ul>
+				<li><a href="#">Мои заказы</a></li>
+			    <li><a href="#">Личный кабинет</a></li>
+			</ul>
 		</div>
 		<nav>
 			<ul>
@@ -44,7 +45,7 @@
 	<main>
 		<ul>
 			<li>
-				<a href="index.html"><img src="#"></a>
+				<a href="index.html"></a>
 			</li>
 			<li><a href="catalog.html">Каталог</a></li>
 			<li><a href="#">Инструмент</a></li>
@@ -54,25 +55,27 @@
 			<h3> Перфораторы </h3>
 			<h4>Производители:</h4>
 			<form action="#" method="get">
-				<input type="checkbox" name="Bosh" id="Bosh">
-					<label for="Bosh">Bosh</label>
-				<br><input type="checkbox" name="Interskol" id="Interskol">
-					<label for="Interskol">Интерскол</label>
-				<br><input type="checkbox" name="Makita" id="Makita">
-					<label for="Makita">Makita</label>
-				<br><input type="checkbox" name="Dewalt" id="Dewalt">
-					<label for="Dewalt">Dewalt</label>
-				<br><input type="checkbox" name="Hitachi" id="Hitachi">
-					<label for="Hitachi">Hitachi</label>
-				</form>
+				<ul>
+				<li>
+					<label><input type="checkbox" name="Bosh">Bosh</label></li>
+				<li>
+					<label><input type="checkbox" name="Interskol">Интерскол</label></li>
+				<li>
+					<label><input type="checkbox" name="Makita">Makita</label></li>
+				<li>
+					<label><input type="checkbox" name="Dewalt">Dewalt</label></li>
+				<li>
+					<label><input type="checkbox" name="Hitachi">Hitachi</label></li>
+				</ul>
 			<h4>Питание:</h4>
-			<form>
-				<input type="radio" name="supply" value="battery" id="battery">
-					<label for="battery">Аккумуляторные</label>
-				<br><input type="radio" name="supply" value="network" id="network">
-					<label for="network">Сетевые</label>
-			</form>
+				<ul>
+				<li>
+					<label><input type="radio" name="supply" value="battery">Аккумуляторные</label></li>
+				<li>
+					<label><input type="radio" name="supply" value="network">Сетевые</label></li>
+				</ul>
 			<button>Показать</button>
+			</form>
 			<ul>
 				<li><img src="img/Perforator_1.jpg">
 					<p class="product-name">Перфоратор Bosh BFG 3000</p>
@@ -85,15 +88,7 @@
 					<p class="new-value">25500 Р.</p>
 				</li>
 				<li><a href="#" class="buy">Купить</a>
-					<br><button><p class="bookmarks">В закладки</p></button>
-					<div class="visually-hidden">
-						<p>Товар добавлен в корзину!</p>
-						<form action="#" method="post">
-							<input type="button" name="make_order" value="Оформить заказ">
-							<input type="button" name="continue" value="Продолжить покупки">
-							<input type="button" name="exit" style="#">
-						</form>
-					</div>
+					<a href="#" class="bookmarks">В закладки</a>
 					<p class="product-name">Перфоратор Bosh BFG 2000</p>
 					<p class="main-value">12500 Р.</p>
 				</li>
@@ -169,6 +164,11 @@
 			</table>
 		</section>
 	</footer>
+	<div class="visually-hidden">
+						<p>Товар добавлен в корзину!</p>
+							<a href="#">Оформить заказ</a>
+							<a href="#">Продолжить покупки</a>
+							<button name="exit" style="#"></button>
+		</div>
 </body>
-
 </html>
