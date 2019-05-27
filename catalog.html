@@ -4,12 +4,17 @@
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Техномарт</title>
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i|PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<nav>
-			<a href="index.html" class="main-link"><img src="img/technomart.svg"></a>
+		<nav class="upper-menu">
+			<div class="upper-logo">
+			<a href="index.html" class="main-link"><img src="img/technomart.svg" class="upper-technomart"></a>
+				</div>
 			<form action="#" method="get">
 				<button name="search"></button>
 				<input type="text" name="search" placeholder="Поиск:">
@@ -18,19 +23,22 @@
 			<div><a href="#">Корзина: 0</a></div>
 			<div><a href="#">Оформить заказ</a></div>
 		</nav>
-		<h2 class="main-describe">Интернет-магазин строительных материалов и инструментов для ремонта</h2> <a href="tel:+78125550555" class="tel">+7 (812) 555-05-55</a>
+		<section class="main-info">
+		<h2 class="main-describe">Интернет-магазин <br>строительных материалов 
+		<br>и инструментов для ремонта</h2> 
+		<a href="tel:+78125550555" class="tel">+7 (812) 555-05-55</a>
 		<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
 		<div class="user-info">
-			<a href="#">Равшан Джамшутович</a>
+			<a href="#" class="enter">Равшан Джамшутович</a>
 			<form action="#" method="post">
 			<button name="exit"></button>
 			</form>
-			<ul>
+			<ul class="orders-cab">
 				<li><a href="#">Мои заказы</a></li>
 			    <li><a href="#">Личный кабинет</a></li>
 			</ul>
 		</div>
-		<nav>
+		<nav class="main-menu">
 			<ul>
 				<li><a href="index.html">Главная</a></li>
 				<li><a href="#">Компания</a></li>
@@ -41,9 +49,10 @@
 				<li><a href="#">Контакты</a></li>
 			</ul>
 		</nav>
+			</section>
 	</header>
 	<main>
-		<ul>
+		<ul class="navigation">
 			<li>
 				<a href="index.html"></a>
 			</li>
@@ -125,7 +134,9 @@
 	</main>
 	<footer>
 		<section class="down-menu">
-				<a href="index.html" class="main-link"><img src="img/technomart.svg"></a>
+			<div class="down-logo">
+				<a href="index.html" class="main-link"><img src="img/technomart.svg" class="down-technomart"></a>
+				</div>
 			<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8
 				<br> +7 (812) 555-05-55 </p>
 			<ul class="menu-pages">
@@ -135,7 +146,7 @@
 				<li><a href="#">Доставка</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
-			<ul class="menu-pages">
+			<ul class="menu-pages-mat">
 				<li><a href="#">Материалы</a></li>
 				<li><a href="#">Техника</a></li>
 				<li><a href="#">Инструмент</a></li>
@@ -149,11 +160,11 @@
 			<a href="www.facebook.com"><img src="fb.jpg"></a>
 			<a href="www.instagram.com"><img src="ins.jpg"></a>
 			<table>
-				<tr>
+				<tr class="tab-article">
 					<td>Обратная связь:</td>
 					<td>Разработано -</td>
 				</tr>
-				<tr>
+				<tr class="tab-links">
 					<td>
 						<a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
 					</td>
