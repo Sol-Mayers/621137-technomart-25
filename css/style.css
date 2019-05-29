@@ -4,77 +4,54 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-
 a {
 	text-decoration: none;
 }
-
 li {
 	list-style: none;
 }
-
-.upper-menu, 
-.links {
+.upper-menu, .links {
 	background-color: #293449;
 }
-
 .main-info {
 	background-color: #f2f6f8;
 }
-
-.main-menu, 
-.down-menu {
+.main-menu, .down-menu {
 	background-color: #32425c;
 }
-
-.upper-menu a,
-.main-menu a,
-.down-menu a {
+.upper-menu a, .main-menu a, .down-menu a {
 	color: white;
 }
-
-.down-menu p,
-.links p,
-.tab-article {
+.down-menu p, .links p, .tab-article {
 	color: white;
 }
-
-.upper-logo,
-.down-logo {
+.upper-logo, .down-logo {
 	background: #ee3643;
 }
-
 .upper-logo {
 	width: 220px;
 	height: 51px;
 }
-
 .upper-technomart {
 	width: 109px;
 	height: 19px;
 }
-
 .down-logo {
 	width: 220px;
 	height: 72px;
 }
-
 .down-technomart {
 	width: 138px;
 	height: 23px;
 }
-
-.menu-pages-mat a,
-.tab-links a {
+.menu-pages-mat a, .tab-links a {
 	color: #ffd996;
 }
-
 .main-action {
 	font-size: 17px;
 	font-family: "Cuprum", "Arial";
 	line-height: 18px;
 }
-
 .main-describe {
 	font-family: "Cuprum", "Arial";
 	font-style: italic;
@@ -82,23 +59,19 @@ li {
 	line-height: 23px;
 	color: #ee3643;
 }
-
 .tel {
 	font-family: "Cuprum", "Arial";
 	font-size: 21px;
 	line-height: 21px;
 	color: #ee3643;
 }
-
 .main-info p {
 	font-size: 14px;
 	font-family: "Cuprum", "Arial";
 	color: #32425c;
 	line-height: 24px;
 }
-
-.enter,
-.reg {
+.enter, .reg {
 	font-family: "Cuprum", "Arial";
 	font-size: 21px;
 	line-height: 21px;
@@ -108,9 +81,8 @@ li {
 	display: inline-block;
 	background-color: #fff;
 	width: 150px;
-	height: 45px; 
+	height: 45px;
 }
-
 .enter {
 	background-color: #fff;
 	border: none;
@@ -122,7 +94,6 @@ li {
 	font-size: 17px;
 	line-height: 17px;
 }
-
 .orders-cab a {
 	font-family: "Cuprum", "Arial";
 	font-size: 16px;
@@ -130,126 +101,99 @@ li {
 	color: #32425c;
 	text-decoration: underline;
 }
-
 .navigation a {
 	font-family: "PT Sans", "Arial";
 	font-size: 13px;
 	line-height: 18px;
 	color: #000;
 }
-
 .add-info h3 {
 	font-family: "Cuprum", "Arial";
 	font-size: 30px;
 	color: #000;
 	line-height: 1;
 }
-
 .add-info .add-info-text {
 	font-family: "PT Sans", "Arial";
 	font-size: 13px;
 	color: #000;
 	line-height: 1;
 }
-
 .name {
 	font-family: "Cuprum", "Arial";
 	font-size: 18px;
 	color: #000;
 	line-height: 2;
 }
-
 .about-us {
 	background-color: #ee3643;
 	width: 220px;
 	height: 10px;
 	color: #fff;
 }
-
 .write-to-us {
 	background-color: #ee3643;
 	width: 300px;
 	height: 10px;
 	color: #fff;
 }
-
 .down-menu p {
 	font-family: "Cuprum", "Arial";
 	font-size: 18px;
 }
-
-.menu-pages,
-.menu-pages-mat {
+.menu-pages, .menu-pages-mat {
 	font-family: "Cuprum", "Arial";
 	font-size: 18px;
 }
-
-.links p,
-.tab-article,
-.tab-links {
+.links p, .tab-article, .tab-links {
 	font-family: "Cuprum", "Arial";
 	font-size: 16px;
 	line-height: 18px;
 }
-
 .visually-hidden {
 	display: none;
 }
-
 .sub-menu h3 {
 	font-family: "Cuprum", "Arial";
 	font-size: 30px;
 	line-height: 30px;
 }
-
 .sub-menu h4 {
 	font-family: "PT Sans", "Arial";
 	font-size: 17px;
 	line-height: 30px;
 	font-weight: bold;
 }
-
 .sub-menu ul li {
 	font-family: "PT Sans", "Arial";
 	font-size: 15px;
 	line-height: 20px;
 	font-weight: normal;
 }
-
 .sub-menu button {
 	font-family: "PT Sans", "Arial";
 	font-size: 13px;
 	line-height: 18px;
 	font-weight: normal;
 }
-
 .product-name {
 	font-family: "PT Sans", "Arial";
 	font-size: 18px;
 	line-height: 20px;
 	font-weight: bold;
 }
-
-.old-value,
-.new-value,
-.main-value {
+.old-value, .new-value, .main-value {
 	font-family: "PT Sans", "Arial";
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: bold;
 }
-
 .old-value {
 	text-decoration: line-through;
 	color: #999999;
 }
-
-.buy,
-.bookmarks {
+.buy, .bookmarks {
 	font-family: "Cuprum", "Arial";
 	font-size: 14px;
 	line-height: 18px;
 }
-
-
-
