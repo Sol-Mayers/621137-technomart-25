@@ -3,6 +3,7 @@ body {
 	background-color: #fff;
 	margin: 0px;
 	padding: 0px;
+	width: 1200px;
 }
 a {
 	text-decoration: none;
@@ -15,6 +16,7 @@ li {
 }
 .main-info {
 	background-color: #f2f6f8;
+	height: 278px;
 }
 .main-menu, .down-menu {
 	background-color: #32425c;
@@ -26,23 +28,32 @@ li {
 	color: white;
 }
 .upper-logo, .down-logo {
+	display: block;
 	background: #ee3643;
+	text-align: center;
+	box-shadow: 0px 4px 0px 0px #b72f38; 
 }
 .upper-logo {
 	width: 220px;
-	height: 51px;
+	height: 43px;
+	margin-left: 130px;
 }
 .upper-technomart {
-	width: 109px;
-	height: 19px;
+	width: 110px;
+	height: 20px;
+	position: relative;
+	top: 12px;
 }
 .down-logo {
 	width: 220px;
-	height: 72px;
+	height: 65px;
+	margin-left: 130px;
 }
 .down-technomart {
 	width: 138px;
-	height: 23px;
+	height: 24px;
+	position: relative;
+	top: 24px;
 }
 .menu-pages-mat a, .tab-links a {
 	color: #ffd996;
@@ -58,12 +69,18 @@ li {
 	font-size: 16px;
 	line-height: 23px;
 	color: #ee3643;
+	display: flex;
+	margin-left: 130px;
+	margin-top: 50px;
 }
 .tel {
 	font-family: "Cuprum", "Arial";
 	font-size: 21px;
 	line-height: 21px;
 	color: #ee3643;
+	display: inline-block;
+	border: 3px solid #ffffff;
+	padding: 11px 50px 11px 72px;
 }
 .main-info p {
 	font-size: 14px;
@@ -80,14 +97,17 @@ li {
 .reg {
 	display: inline-block;
 	background-color: #fff;
-	width: 150px;
-	height: 45px;
+	width: 170px;
+	height: 33px;
+	padding-top: 12px;
+	text-align: center;
 }
 .enter {
 	background-color: #fff;
 	border: none;
 	height: 45px;
-	width: 121px;
+	width: 126px;
+	margin-right: 10px;
 }
 .main-menu a {
 	font-family: "Cuprum", "Arial";
@@ -117,7 +137,7 @@ li {
 	font-family: "PT Sans", "Arial";
 	font-size: 13px;
 	color: #000;
-	line-height: 1;
+	line-height: 1.5;
 }
 .name {
 	font-family: "Cuprum", "Arial";
@@ -128,14 +148,21 @@ li {
 .about-us {
 	background-color: #ee3643;
 	width: 220px;
-	height: 10px;
+	height: 29px;
 	color: #fff;
+	text-align: center;
+	padding-top: 9px;
+	border-radius: 3px;
 }
 .write-to-us {
 	background-color: #ee3643;
 	width: 300px;
-	height: 10px;
+	height: 29px;
 	color: #fff;
+	margin-top: 40px;
+	text-align: center;
+	padding-top: 9px;
+	border-radius: 3px;
 }
 .down-menu p {
 	font-family: "Cuprum", "Arial";
@@ -196,4 +223,223 @@ li {
 	font-family: "Cuprum", "Arial";
 	font-size: 14px;
 	line-height: 18px;
+}
+.upper-menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 44px;
+}
+.search {
+	margin-left: 15px;
+}
+.find-text {
+	margin-left: 30px;
+	position: relative;
+	bottom: 10px;
+}
+.glass {
+	width: 18px;
+	height: 18px;
+	position: relative;
+	top: 13px;
+}
+.zakladka {
+	display: inline;
+	width: 17px;
+	height: 17px;
+	margin-right: 15px;
+	position: relative;
+	top: 3px;
+}
+.korzina {
+	width: 17px;
+	height: 17px;
+	margin-right: 15px;
+	position: relative;
+	top: 3px;
+}
+.order {
+	width: 138px;
+	background-color: #63a63e;
+	display: block;
+	height: 18px;
+	text-align: center;
+	position: relative;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-right: 130px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.book {
+	width: 150px;
+	display: block;
+	height: 21px;
+	text-align: center;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+.korz {
+	width: 135px;
+	display: block;
+	height: 21px;
+	text-align: center;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+.description {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 278px;
+}
+.main-describe {
+	display: inline-block;
+}
+.call-adress {
+	flex-direction: column;
+	display: flex;
+	margin-right: 70px;
+	align-items: center;
+}
+.main-menu {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+	width: 940px;
+}
+.main-menu ul {
+	display: flex;
+	flex-direction: row;
+	margin-left: -40px;
+	padding-top: 20px;
+}
+.main-menu ul li {
+	margin: auto;
+}
+.right-fl {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: -80px;
+	margin-right: 130px;
+}
+.telefon {
+	margin-right: 40px;
+	margin-left: -60px;
+}
+.voiti {
+	margin-right: 15px;
+}
+.main-width {
+	margin-right: 130px;
+	margin-left: 130px;
+}
+.call-adress p {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.footer-width {
+	margin-left: 130px;
+	margin-right: 130px;
+}
+.tehn-flex {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+
+.cont-flex {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 640px;
+	bottom: 395px;
+	width: 300px;
+}
+.down-menu {
+	position: relative;
+	bottom: 309px;
+	display: flex;
+	width: 1200px;
+	position: relative;
+	right: 130px;
+	justify-content: flex-start;
+	height: 193px;
+}
+.down-flex p {
+	margin-left: 130px;
+	margin-top: 30px;
+	width: 350px;
+	margin-right: -150px;
+	line-height: 25px;
+}
+.menu-pages {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1190px;
+	position: relative;
+	left: 125px;
+	height: 20px;
+	
+}
+.menu-pages-mat {
+	display: flex;
+	position: relative;
+	top: 75px;
+	right: 310px;
+	width: 1100px;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-right: -300px;
+	right: 428px
+}
+.links {
+	width: 1200px;
+	margin-left: -130px;
+	position: relative;
+	bottom: 324px;
+	display: flex;
+	height: 108px;
+}
+.tab-article {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	left: 320px;
+	width: 290px;
+	justify-content: space-between;
+	top: 33px;
+}
+.tab-links {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	left: 320px;
+	width: 290px;
+	justify-content: space-between;
+	top: 33px;
+}
+.ic-flx {
+	display: flex;
+	justify-content: space-between;
+	width: 114px;
+	position: relative;
+	left: 170px;
+	top: 43px;
+}
+.links p {
+	margin-left: 130px;
+	margin-top: 33px;
 }
