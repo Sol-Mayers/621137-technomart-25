@@ -7,31 +7,34 @@
 <link href="css/normalize.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
-<div class="main-width">
   <header>
-    <nav class="upper-menu"> <a href="index.html" class="upper-logo"><img src="img/technomart.svg" class="upper-technomart"> </a>
+    <nav class="upper-menu"> 
+		<a href="index.html" class="upper-logo"><img src="img/technomart.svg" class="upper-technomart"> </a>
       <form action="#" method="get"  class="search">
         <a href="#" name="search" class="glass"><img src="img/icon-search.png" class="glass"></a>
         <input type="text" class="find-text" name="search" placeholder="Поиск:">
       </form>
-      <a href="#" class="main-action book"><img src="img/icon-bookmark.png" class="zakladka">Закладки: 0</a> <a href="#" class="main-action korz"><img src="img/cart-icon.png" class="korzina">Корзина: 0</a> <a href="#" class="main-action order">Оформить заказ</a> </nav>
+      <a href="#" class="main-action book"><img src="img/icon-bookmark.png" class="bookmark-pic">Закладки: 0</a> <a href="#" class="main-action cart"><img src="img/cart-icon.png" class="cart-pic">Корзина: 0</a> <a href="#" class="main-action order">Оформить заказ</a> 
+			</nav>
     <section class="main-info">
-      <div class="right-fl">
+      <div class="second-menu">
         <h2 class="main-describe">Интернет-магазин строительных материалов <br>
           и инструментов для ремонта </h2>
         <div class="call-adress"> <a href="tel:+78125550555" class="tel"><img src="img/icon-phone.png" class="telefon">+7 (812) 555-05-55 </a>
           <p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
         </div>
-        <button name="enter" class="enter"><img src="img/icon-login.png" class="voiti">Войти</button>
+		  <div class="enter-reg">
+        <a href="#" class="enter"><img src="img/icon-login.png" class="enter-pic">Войти</a>
         <a href="#" class="reg">Регистрация</a> </div>
+		  </div>
       <nav class="main-menu"> <a href="index.html">Главная</a> <a href="#">Компания</a> <a href="catalog.html">Каталог</a> <a href="#">Новости</a> <a href="#">Спецпредложения</a> <a href="#">Доставка</a> <a href="#">Контакты</a> </nav>
     </section>
   </header>
+	<div class="main-width">
   <main>
     <section class="add-info">
-      <div class="tehn-flex">
+      <div class="company-descrip">
         <h3>Компания "Техномарт"</h3>
         <p class="add-info-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
           строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
@@ -49,7 +52,7 @@
 				</div>
         </ul>
         <a href="#" class="about-us">Подробнее о компании</a> </div>
-      <div class="cont-flex">
+      <div class="contact-descrip">
         <h3>Контакты</h3>
         <p class="add-info-text-map">Вы можете забрать товар сами,
           заехав в наш офис:</p>
@@ -60,6 +63,7 @@
         <a href="#" class="write-to-us">Заблудились? Напишите нам!</a> </div>
     </section>
   </main>
+		</div>
   <footer>
     <section class="down-menu">
       <div class="tech-upper"> <a href="index.html" class="down-logo"><img src="img/technomart.svg" class="down-technomart"> </a>
@@ -79,12 +83,12 @@
           <p>2010-2017 Компания "Техномарт"<br>
             Все права защищены</p>
         </div>
-        <div class="ic-flx">
+        <div class="social-networks">
           <div class="ic-background"> <a href="www.vk.com"><img src="img/vk-icon-min.png" class="sn-pic"></a> </div>
           <div class="ic-background"> <a href="www.facebook.com"><img src="img/fb-icon-min.png" class="sn-pic"></a> </div>
           <div class="ic-background"> <a href="www.instagram.com"><img src="img/insta-icon-min.png" class="sn-pic"></a> </div>
         </div>
-        <div class="flx-table">
+        <div class="cont-table">
           <table>
             <tr class="tab-article">
               <td>Обратная связь:</td>
@@ -114,6 +118,5 @@
       <button name="exit" style="#"></button>
     </form>
   </div>
-</div>
 </body>
 </html>

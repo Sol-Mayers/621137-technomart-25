@@ -1,9 +1,10 @@
 body {
 	font-family: "Cuprum", "PT Sans", "Arial", sans-serif;
 	background-color: #fff;
-	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
 	padding: 0px;
-	width: 1200px;
 }
 a {
 	text-decoration: none;
@@ -37,7 +38,6 @@ li {
 .upper-logo {
 	width: 220px;
 	height: 46px;
-	margin-left: 130px;
 	box-sizing: border-box;
 	padding-top: 13px;
 	text-align: center;
@@ -107,14 +107,17 @@ li {
 	width: 150px;
 	height: 45px;
 	align-items: center;
-	justify-content: center;
+	justify-content: center; 
 }
 .enter {
 	background-color: #fff;
-	border: none;
 	height: 45px;
 	width: 126px;
 	margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 .main-menu a {
 	font-family: "Cuprum", "Arial";
@@ -230,6 +233,7 @@ li {
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
+	justify-content: center;
 }
 .search {
 	padding-left: 16px;
@@ -254,12 +258,12 @@ li {
 	width: 18px;
 	height: 18px;
 }
-.zakladka {
+.bookmark-pic {
 	width: 17px;
 	height: 17px;
 	margin-right: 15px;
 }
-.korzina {
+.cart-pic {
 	width: 17px;
 	height: 17px;
 	margin-right: 15px;
@@ -269,7 +273,6 @@ li {
 	width: 148px;
 	background-color: #63a63e;
 	height: 46px;
-	margin-right: 130px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -285,7 +288,7 @@ li {
 	justify-content: center;
 	align-self: center;
 }
-.korz {
+.cart {
 	width: 160px;
 	height: 46px;
 	display: flex;
@@ -322,7 +325,7 @@ li {
 	width: inherit;
 	justify-content: center;
 }
-.right-fl {
+.second-menu {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -335,31 +338,27 @@ li {
 .telefon {
 	margin-right: 38px;
 }
-.voiti {
+.enter-pic {
 	margin-right: 15px;
 }
 .call-adress p {
 	margin-top: 6px;
 	margin-bottom: 20px;
 }
-.tehn-flex {
+.company-descrip {
 	display: flex;
 	flex-direction: column;
 }
-.cont-flex {
+.contact-descrip {
 	display: flex;
 	flex-direction: column;
 }
-.down-flex p {
-	margin-left: 130px;
-	margin-top: 30px;
-	width: 350px;
-	line-height: 25px;
-}
+
 .links {
-	width: 1200px;
 	display: flex;
 	flex-direction: row;
+	align-items: baseline;
+	justify-content: center;
 }
 .tab-article {
 	display: flex;
@@ -373,7 +372,7 @@ li {
 	justify-content: space-between;
 	top: 33px;
 }
-.ic-flx {
+.social-networks {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -397,44 +396,42 @@ li {
 .tech-upper {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	width: 940px;
-	margin-left: 130px;
-	margin-right: 130px;
+	align-items: baseline;
+	justify-content: center;
 }
 .menu-pages {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
 	width: 720px;
 	margin-left: 0px;
 	align-items: center;
 	padding-top: 15px;
+	justify-content: flex-end;
 }
 .menu-pages-mat {
 	display: flex;
-	justify-content: space-between;
 	flex-direction: row;
-	align-items: flex-start;
+	width: 540px;
+	margin-left: 0px;
+	align-items: center;
 	padding-top: 18px;
-	width: 565px;
+	justify-content: space-between;
+	margin-left: 80px;
 }
 .tech-down {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	margin-left: 130px;
-	margin-right: 130px;
-	margin-top: 10px;
+	align-items: baseline;
+	justify-content: center;
 }
 .down-adress {
 	display: flex;
 	flex-direction: row;
+	justify-content: start;
 }
 .down-info {
 	display: flex;
 	flex-direction: row;
-	margin-left: 130px;
 	width: 940px;
 	justify-content: space-between;
 	align-items: center;
@@ -445,7 +442,7 @@ li {
 	flex-direction: row;
 	align-items: center;
 }
-.flx-table {
+.cont-table {
 	height: 108px;
 	display: flex;
 	flex-direction: row;
@@ -467,7 +464,7 @@ li {
 	padding-left: 0px;
 }
 
-.korz-cat {
+.cart-catalog {
 	width: 160px;
 	height: 46px;
 	display: flex;
@@ -511,7 +508,7 @@ li {
 	align-self: flex-start;
 	margin-right: 90px;
 }
-.prof-ic {
+.profile-icon {
 	margin-right: 14px;
 }
 .prof-logout {
@@ -677,6 +674,8 @@ li {
 	margin-top: 43px;
 	margin-bottom: 8px;
 	border-bottom: 2px solid #367315;
+	background-color: #63a63e;
+	color: #fff;
 }
 .bookmarks {
 	display: flex;
@@ -689,10 +688,7 @@ li {
 	color: #32425c;
 	margin-bottom: 50px
 }
-.buy {
-	background-color: #63a63e;
-	color: #fff;
-}
+
 .cart-cat {
 	margin-right: 20px;
 	margin-left: 15px;
@@ -747,4 +743,12 @@ li {
 	display: flex;
 	flex-direction: row;
 	width: 185px;
+}
+.enter-reg {
+	display: flex;
+	flex-direction: row;
+}
+.first-width {
+	width: 940px;
+	display: flex;
 }
