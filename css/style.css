@@ -858,7 +858,7 @@ li {
 .new-value {
 	width: 141px;
 	height: 38px;
-	background-image: url("../img/btn copy 14.svg");
+	background-image: url("../img/btn-copy-14.svg");
 	box-sizing: border-box;
 	color: #fff;
 	padding-top: 10px;
@@ -919,7 +919,7 @@ li {
 .new-value-rows {
 	width: 141px;
 	height: 38px;
-	background-image: url("../img/btn copy 14.svg");
+	background-image: url("../img/btn-copy-14.svg");
 	box-sizing: border-box;
 	padding-top: 10px;
 	color: #fff;
@@ -1765,6 +1765,7 @@ li {
 	color: #000000;
 	margin-top: 20px;
 	line-height: 24px;
+	padding-right: 8px;
 }
 
 .deliv-slide {
